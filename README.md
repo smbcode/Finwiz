@@ -2,7 +2,6 @@
 
 The official web portal and platform for **FinWiz - The Finance & FinTech Club of the National Institute of Technology, Warangal**.
 
-![FinWiz Banner](public/finwiz-logo.svg)
 
 ---
 
