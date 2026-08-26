@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="100%" height="100%">
+  <defs>
+    <!-- Geometric Low-Poly Bull Gradients & Shading -->
+    <filter id="crisp-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <g id="finwiz-lowpoly-bull" filter="url(#crisp-shadow)">
+    <!-- Horn & Snout (Left Facing) -->
+    <polygon points="12,185 82,148 55,202" fill="#be123c" />
+    <polygon points="12,185 55,202 85,225" fill="#e11d48" />
+    <polygon points="55,202 96,242 125,232" fill="#fb7185" />
+    <polygon points="96,242 135,260 148,245" fill="#e11d48" />
+    <polygon points="125,232 148,245 158,218" fill="#9f1239" />
+    
+    <!-- Forehead & Crest -->
+    <polygon points="82,148 135,138 120,182" fill="#881337" />
+    <polygon points="82,148 120,182 55,202" fill="#9f1239" />
+    <polygon points="120,182 158,218 125,232" fill="#be123c" />
+    <polygon points="120,182 175,178 158,218" fill="#4c0519" />
+
+    <!-- Upper Shoulder & Neck -->
+    <polygon points="135,138 185,115 175,178" fill="#4a044e" />
+    <polygon points="185,115 240,102 225,160" fill="#2e0854" />
+    <polygon points="185,115 225,160 175,178" fill="#701a75" />
+    <polygon points="175,178 225,160 215,225" fill="#9d174d" />
+    <polygon points="158,218 175,178 215,225" fill="#be185d" />
+
+    <!-- Chest & Front Legs -->
+    <polygon points="148,245 185,262 170,285" fill="#e11d48" />
+    <polygon points="185,262 170,285 160,318" fill="#be123c" />
+    <polygon points="160,318 188,312 170,285" fill="#9f1239" />
+    <polygon points="188,312 175,342 165,340" fill="#e11d48" />
+    <polygon points="158,218 215,225 198,272" fill="#be123c" />
+    <polygon points="198,272 235,278 220,312" fill="#e11d48" />
+    <polygon points="220,312 252,305 235,278" fill="#881337" />
+    <polygon points="235,278 275,265 252,305" fill="#4c0519" />
+    <polygon points="252,305 272,310 285,302" fill="#be123c" />
+
+    <!-- Central Body & Ribcage -->
+    <polygon points="240,102 295,122 278,172" fill="#3b0764" />
+    <polygon points="240,102 278,172 225,160" fill="#4a044e" />
+    <polygon points="225,160 278,172 268,235" fill="#701a75" />
+    <polygon points="225,160 268,235 215,225" fill="#a21caf" />
+    <polygon points="215,225 268,235 235,278" fill="#be185d" />
+    <polygon points="268,235 320,230 275,265" fill="#881337" />
+    <polygon points="278,172 342,165 320,230" fill="#581c87" />
+    <polygon points="278,172 295,122 342,165" fill="#4c0519" />
+
+    <!-- Back & Spine -->
+    <polygon points="295,122 368,135 342,165" fill="#3b0764" />
+    <polygon points="368,135 422,142 388,188" fill="#2e0854" />
+    <polygon points="368,135 388,188 342,165" fill="#4a044e" />
+    <polygon points="342,165 388,188 365,242" fill="#701a75" />
+    <polygon points="342,165 365,242 320,230" fill="#9d174d" />
+
+    <!-- Hindquarters & Flank -->
+    <polygon points="422,142 458,188 388,188" fill="#3b0764" />
+    <polygon points="422,142 450,122 472,162" fill="#581c87" />
+    <polygon points="472,162 458,188 422,142" fill="#4a044e" />
+    <polygon points="388,188 458,188 428,248" fill="#881337" />
+    <polygon points="388,188 428,248 365,242" fill="#9f1239" />
+    <polygon points="458,188 478,242 428,248" fill="#be123c" />
+
+    <!-- Rear Legs -->
+    <polygon points="365,242 428,248 395,295" fill="#e11d48" />
+    <polygon points="428,248 462,282 395,295" fill="#be185d" />
+    <polygon points="395,295 425,322 382,318" fill="#e11d48" />
+    <polygon points="382,318 405,340 375,338" fill="#9f1239" />
+    <polygon points="458,188 488,235 478,242" fill="#e11d48" />
+    <polygon points="478,242 492,282 462,282" fill="#9f1239" />
+    <polygon points="462,282 478,328 448,315" fill="#be123c" />
+    <polygon points="448,315 472,352 440,348" fill="#e11d48" />
+    <polygon points="472,352 460,358 435,352" fill="#3b0764" />
+
+    <!-- Tail (Curving Upward to Right) -->
+    <polygon points="450,122 485,128 472,162" fill="#701a75" />
+    <polygon points="485,128 505,152 492,165" fill="#be185d" />
+    <polygon points="505,152 525,162 512,175" fill="#e11d48" />
+    <polygon points="525,162 535,178 518,188" fill="#4a044e" />
+    <polygon points="535,178 545,182 528,198" fill="#3b0764" />
+  </g>
+</svg>
