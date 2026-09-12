@@ -7,47 +7,53 @@
 
 :root {
   /* Typography Tokens */
-  --font-family-main: 'Josefin Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-family-mono: 'JetBrains Mono', monospace;
+  --font-family-main:
+    "Josefin Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-family-mono: "JetBrains Mono", monospace;
 
-  /* Color Palette Tokens */
-  --color-bg-base: #09090b;
-  --color-bg-sub: #121316;
-  --color-bg-card: #18181b;
-  --color-bg-card-hover: #222226;
-  --color-bg-elevated: #27272a;
+  /* Color Palette Tokens (Custom Aesthetic Theme) */
+  /* Using a slightly deepened #092328 for the ultimate background depth */
+  --color-bg-base: #06181b;
+  --color-bg-sub: #092328;
+  --color-bg-card: #092328;
+  /* Using #12544F for beautiful, subtle hover states */
+  --color-bg-card-hover: #0c2e32;
+  --color-bg-elevated: #12544f;
 
   /* Brand Accents */
-  --color-brand: #f59e0b;
-  --color-brand-hover: #fbbf24;
-  --color-brand-light: #fef3c7;
-  --color-brand-bg: #271f0c;
+  /* #8BBB92 is your primary vibrant accent for buttons and highlights */
+  --color-brand: #8bbb92;
+  --color-brand-hover: #a4ceaa;
+  --color-brand-light: #c8e6ce;
+  --color-brand-bg: rgba(139, 187, 146, 0.15);
 
-  --color-emerald: #10b981;
-  --color-emerald-light: #d1fae5;
-  --color-emerald-bg: #0d281e;
+  /* Secondary Accents using the rich #2A835F */
+  --color-emerald: #2a835f;
+  --color-emerald-light: #8bbb92;
+  --color-emerald-bg: rgba(42, 131, 95, 0.15);
 
-  --color-cyan: #06b6d4;
-  --color-cyan-bg: #0a2530;
+  --color-cyan: #12544f;
+  --color-cyan-bg: rgba(18, 84, 79, 0.2);
 
+  /* Destructive actions (kept standard red for UX clarity) */
   --color-danger: #ef4444;
   --color-danger-bg: #2c1214;
   --color-danger-text: #fca5a5;
 
   /* Typography Text Tokens */
   --color-text-white: #ffffff;
-  --color-text-body: #e4e4e7;
-  --color-text-muted: #a1a1aa;
-  --color-text-faint: #71717a;
-  --color-text-dark: #09090b;
+  --color-text-body: #d4e3df; /* Slightly minty-white for harmony */
+  --color-text-muted: #7ea39e; /* Desaturated sage for readable muted text */
+  --color-text-faint: #2a835f;
+  --color-text-dark: #06181b;
 
   /* Border Tokens */
   --border-width: 1px;
-  --color-border-subtle: #27272a;
-  --color-border-medium: #3f3f46;
-  --color-border-strong: #52525b;
-  --color-border-brand: #f59e0b;
-  --color-border-emerald: #10b981;
+  --color-border-subtle: #12544f;
+  --color-border-medium: #2a835f;
+  --color-border-strong: #8bbb92;
+  --color-border-brand: #8bbb92;
+  --color-border-emerald: #2a835f;
 
   /* Spacing Tokens */
   --space-xs: 0.25rem;
@@ -68,9 +74,10 @@
   --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
   --transition-normal: 200ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 /* Base Reset */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -109,7 +116,12 @@ body {
 }
 
 /* Typography Headings */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-family-main);
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -124,7 +136,10 @@ a {
   transition: color var(--transition-fast);
 }
 
-button, input, textarea, select {
+button,
+input,
+textarea,
+select {
   font-family: var(--font-family-main);
   color: inherit;
 }
@@ -158,7 +173,8 @@ button {
 }
 
 /* Consistent Solid Color Text Classes */
-.text-brand, .text-gold {
+.text-brand,
+.text-gold {
   color: var(--color-brand);
 }
 
@@ -307,7 +323,8 @@ button {
   .section-main-title {
     font-size: 1.55rem;
   }
-  .btn-primary, .btn-secondary {
+  .btn-primary,
+  .btn-secondary {
     padding: 0.65rem 1.2rem;
     font-size: 0.88rem;
   }

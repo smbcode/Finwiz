@@ -225,8 +225,12 @@
 }
 
 @keyframes tickerScroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .ticker-item {
@@ -448,9 +452,15 @@
   color: var(--color-text-body);
 }
 
-.chip-gold-icon { color: var(--color-brand); }
-.chip-emerald-icon { color: var(--color-emerald); }
-.chip-cyan-icon { color: var(--color-cyan); }
+.chip-gold-icon {
+  color: var(--color-brand);
+}
+.chip-emerald-icon {
+  color: var(--color-emerald);
+}
+.chip-cyan-icon {
+  color: var(--color-cyan);
+}
 
 /* --- ABOUT SECTION & DOMAINS (Spans Full Width) --- */
 .about-section {
