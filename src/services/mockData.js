@@ -1,20 +1,16 @@
 /**
- * =========================================================
- * FINWIZ CLUB NIT WARANGAL - DATA REGISTRY
- * In-code data repository (No external database for notices)
- * =========================================================
- */
+mock data page , to be filled with accurate data.......
+*/
 
 export const CLUB_INFO = {
   name: "FINWIZ",
-  fullName: "FinWiz - The Finance & FinTech Club",
+  fullName: "FinWiz - The Finance Club",
   college: "National Institute of Technology, Warangal",
   collegeShort: "NIT Warangal",
   tagline: "Finance, Quantitative Modeling & FinTech Engineering",
   description:
     "FinWiz is the official student-run Finance & FinTech club of NIT Warangal, helping students develop practical skills in algorithmic trading, corporate valuation, and financial technology.",
   email: "finwiz@student.nitw.ac.in",
-  phone: "+91 870 245 9111",
   address: "NIT Warangal Campus, Hanamkonda, Warangal, Telangana - 506004",
   socials: {
     linkedin: "https://linkedin.com/company/finwiz-nitw",
@@ -25,10 +21,10 @@ export const CLUB_INFO = {
 };
 
 export const STATS_DATA = [
-  { id: 1, count: "500+", label: "Active Members", desc: "Across all engineering & management branches" },
+  { id: 1, count: "40+", label: "Active Members", desc: "Across all engineering & management branches" },
   { id: 2, count: "40+", label: "Events Conducted", desc: "Simulations, bootcamps, and workshops" },
   { id: 3, count: "₹2.5L+", label: "Prizes Awarded", desc: "Distributed across hackathon editions" },
-  { id: 4, count: "3+", label: "Years Active", desc: "Building finance culture on campus" },
+  { id: 4, count: "8+", label: "Years Active", desc: "Building finance culture on campus" },
 ];
 
 export const LIVE_TICKER_DATA = [
@@ -37,7 +33,6 @@ export const LIVE_TICKER_DATA = [
   { symbol: "FINHACK 2026", price: "REGISTRATIONS OPEN", change: "ACTIVE", isPositive: true },
   { symbol: "BTC/USDT", price: "$64,250", change: "+2.15%", isPositive: true },
   { symbol: "ETH/USDT", price: "$3,480", change: "-0.45%", isPositive: false },
-  { symbol: "NITW RECRUITMENT", price: "PHASE 1", change: "OPEN", isPositive: true },
   { symbol: "INDIA VIX", price: "12.85", change: "-3.12%", isPositive: true },
 ];
 

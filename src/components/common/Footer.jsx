@@ -83,7 +83,7 @@ export default function Footer() {
             <h3 className="footer-col-title">Quick Links</h3>
             <ul className="footer-links-list">
               <li><Link to="/" className="footer-link-item">Home</Link></li>
-              <li><Link to="/hackathon" className="footer-link-item">Fintech Hackathon</Link></li>
+              {/* add the evemnts page link here */}
               <li><Link to="/notices" className="footer-link-item">Notice Board</Link></li>
               <li><a href="#about-section" className="footer-link-item">About Us</a></li>
             </ul>
@@ -93,11 +93,7 @@ export default function Footer() {
           <nav className="footer-links-col" aria-label="Club Domain Verticals">
             <h3 className="footer-col-title">Club Verticals</h3>
             <ul className="footer-links-list">
-              <li className="footer-link-item">Algorithmic Trading</li>
-              <li className="footer-link-item">Quantitative Finance</li>
-              <li className="footer-link-item">DeFi & Web3</li>
-              <li className="footer-link-item">Investment Banking</li>
-              <li className="footer-link-item">FinTech Engineering</li>
+            {/* to add club verticals here...... */}
             </ul>
           </nav>
 
@@ -113,10 +109,6 @@ export default function Footer() {
               <a href={`mailto:${CLUB_INFO.email}`} className="footer-contact-link">
                 {CLUB_INFO.email}
               </a>
-            </div>
-            <div className="contact-item">
-              <Phone size={18} className="contact-icon" />
-              <span>{CLUB_INFO.phone}</span>
             </div>
           </address>
         </div>

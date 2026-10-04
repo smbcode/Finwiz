@@ -40,14 +40,7 @@ export default function Header() {
           >
             Home
           </NavLink>
-
-          <NavLink
-            to="/hackathon"
-            className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}
-          >
-            Fintech Hackathon
-            <span className="nav-tag-badge">2026</span>
-          </NavLink>
+{/* this where to add the new nav links in the navbar */}
 
           <NavLink
             to="/notices"
@@ -97,18 +90,7 @@ export default function Header() {
             <Home size={18} />
             <span>Home</span>
           </NavLink>
-
-          <NavLink
-            to="/hackathon"
-            className={({ isActive }) =>
-              `mobile-nav-link ${isActive ? "active" : ""}`
-            }
-            onClick={closeMobileMenu}
-          >
-            <Trophy size={18} />
-            <span>Fintech Hackathon 2026</span>
-          </NavLink>
-
+{/* this where to add the new nav links in the navbar */}
           <NavLink
             to="/notices"
             className={({ isActive }) =>

@@ -1,6 +1,6 @@
 # Contributing to FinWiz Web Portal 🚀
 
-Welcome to the **FinWiz NIT Warangal** open-source code repository! This guide is crafted to help developers, designers, and quant enthusiasts from NIT Warangal contribute effectively to our club portal.
+Welcome to the **FinWiz NIT Warangal**  code repository! This guide is crafted to help developers, designers from Finwiz to contribute effectively to our club portal.
 
 ---
 
@@ -34,7 +34,7 @@ Finwiz/
 
 ---
 
-## 🛠️ Getting Started Locally
+## Getting Started Locally
 
 ### 1. Frontend Setup
 ```bash
@@ -63,7 +63,7 @@ The backend server runs on `http://localhost:5000`.
 
 ---
 
-## 💡 Key Design & Code Conventions
+## Key Design & Code Conventions
 
 1. **FinTech Theme & Colors**:
    - Dark Obsidian: `#07090e`, `#0d111a`
@@ -85,5 +85,3 @@ The backend server runs on `http://localhost:5000`.
 
 ---
 
-## 👥 Need Help?
-Reach out to the **FinWiz Technical Team** at [finwiz@student.nitw.ac.in](mailto:finwiz@student.nitw.ac.in) or drop a message in the `#dev-wing` channel on our official Discord!

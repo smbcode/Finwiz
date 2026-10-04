@@ -27,21 +27,9 @@ export default function UserProfileBadge() {
         onClick={() => setIsOpen(!isOpen)}
         aria-expanded={isOpen}
         aria-label="User account menu"
-      >
-        <div className="user-avatar-circle">
-          {user.avatar ? (
-            <img
-              src={user.avatar}
-              alt={`Avatar for ${user.name || 'User'}`}
-              className="user-avatar-img"
-            />
-          ) : (
-            <span>{user.name ? user.name.charAt(0).toUpperCase() : 'U'}</span>
-          )}
-        </div>
-        
+      > 
         <div className="user-info-text">
-          <span className="user-display-name">{user.name || 'NITW Student'}</span>
+          <span className="user-display-name">{user.name }</span>
           <span className="user-roll-badge">
             {user.rollNo ? `Roll: ${user.rollNo}` : (user.isTeam ? 'Team Member' : 'Student')}
           </span>

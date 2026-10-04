@@ -1,11 +1,11 @@
-# ⚡ FinWiz · Finance & FinTech Club, NIT Warangal
+# FinWiz · Finance Club, NIT Warangal
 
-The official web portal and platform for **FinWiz - The Finance & FinTech Club of the National Institute of Technology, Warangal**.
+The official web portal and platform for **FinWiz - The Finance Club of the National Institute of Technology, Warangal**.
 
 
 ---
 
-## 🌟 Features
+## Features
 
 - **Dynamic FinTech Home Page**:
   - Live animated market & club news ticker.
