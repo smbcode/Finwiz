@@ -25,12 +25,7 @@ export default function HeroSection() {
             </p>
 
             <div className="hero-cta-group">
-              {isAuthenticated ? (
-                <Link to="/hackathon" className="btn-primary">
-                  <Trophy size={18} />
-                  <span>Go to FinHack '26</span>
-                </Link>
-              ) : (
+              {!isAuthenticated && (
                 <button
                   className="btn-primary"
                   onClick={openAuthModal}
